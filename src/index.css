@@ -1,0 +1,28 @@
+:root {
+  --navy: #00154f;
+  --yellow: #f4af1b;
+  --beige: #f2bc94;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html::-webkit-scrollbar {
+  background-color: var(--navy);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--yellow);
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+}

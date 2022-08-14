@@ -1,0 +1,22 @@
+.reactions-container {
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reaction-btn {
+  background-color: var(--navy);
+  border: none;
+  color: red;
+  font-size: 1rem;
+  transition: ease 0.2s;
+}
+
+.reaction-btn:hover {
+  /* font-size: 1.1rem; */
+  letter-spacing: 1px;
+  transform: scale(1.5);
+  color: aqua;
+}

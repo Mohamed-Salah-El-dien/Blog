@@ -1,0 +1,118 @@
+.single-card {
+  margin: auto;
+  margin-top: 8%;
+  border: 1px solid var(--yellow);
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.9);
+  background-color: var(--navy);
+  width: 43rem;
+  transition: 0.75s ease;
+}
+
+.single-card:hover {
+  box-shadow: 0rem 5rem 2rem rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 9px var(--yellow);
+}
+
+.post-title-s {
+  color: var(--beige);
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.post-body-s {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.postCredit-s {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--yellow);
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.postCredit-s a {
+  color: var(--yellow);
+  text-decoration: none;
+  color: red;
+  transition: ease 0.2s;
+  margin-right: 1rem;
+}
+
+.postCredit-s a:hover {
+  color: aqua;
+  letter-spacing: 1px;
+}
+
+/* media */
+
+@media (max-width: 750px) {
+  .single-card {
+    margin-top: 15%;
+  }
+
+  .post-title-s {
+    font-size: 1.4rem;
+  }
+
+  .post-body-s {
+    font-size: 1.1rem;
+  }
+
+  .postCredit-s {
+    font-size: 1.2rem;
+  }
+
+  .postCredit-s a {
+    margin-right: 0.4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .single-card {
+    width: 25rem;
+    margin-top: 25%;
+  }
+
+  .post-title-s {
+    font-size: 1.1rem;
+  }
+
+  .post-body-s {
+    font-size: 0.9rem;
+  }
+
+  .postCredit-s {
+    font-size: 0.8rem;
+  }
+
+  .postCredit-s a {
+    margin-right: 0.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .single-card {
+    width: 18rem;
+  }
+
+  .post-title-s {
+    font-size: 1rem;
+  }
+
+  .post-body-s {
+    font-size: 0.8rem;
+  }
+
+  .postCredit-s {
+    font-size: 0.7rem;
+  }
+}
